@@ -2,3 +2,9 @@
 là sự tương tác giữa model và views
 
 có hai cách truyền bến ( binding ) sang views {{ tên biến }} hoặc [ tên biến ]
+
+Tutorial 8
+
+ Cách sử dụng binding Class và Style.
+ Demo 'tutorial.component.ts'
+ nếu biến bằng true thì áp dụng class hoặc style = flase thì bỏ qua.

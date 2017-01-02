@@ -1,21 +1,17 @@
 import {Component} from '@angular/core';
-
+// binding class or syte cho element
 @Component({
-    selector: 'my-tutorial',
-    template: '<h1>First Component</h1>' +
-    '<h2>Second Component</h2><br>'+
-    '<h4>{{ title }}</h4>'+
-    '<p>{{ description }}</p> ' +
-    '<img [src]="image"> <br>' +
-    '<input type="text" [value]="valueText">'
-    ,
-    // sử dựng sytles cho từng component
-    styles:['h1{color: red }' , 'h2{ color: blue}']
+    selector:'my-tutorial',
+    template:`
+    <h2>This TEDU Angular2 Tutorial component</h2>
+    <h3 [class.redColor]="applyClass">Apply class</h3>
+    <h4 [style.color]="blueColor?'blue':'orange'">Apply style</h4>
+    `,
+    styles:[`.redColor{
+        color:red;
+    }`]
 })
-export class TutorialComponent {
-    public title = "Đây là bài đầu tiên của angular js";
-    public description = "lần đầu tiên làm việc với angular js ";
-    public image = 'http://lorempixel.com/400/400';
-    public valueText = "Wellcome Angulajs 2 ";
-
+export class TutorialComponent{
+    public applyClass = true;
+    public blueColor = false;
 }
