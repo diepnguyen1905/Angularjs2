@@ -1,0 +1,4 @@
+    Tutorial 7: one way binding
+là sự tương tác giữa model và views
+
+có hai cách truyền bến ( binding ) sang views {{ tên biến }} hoặc [ tên biến ]

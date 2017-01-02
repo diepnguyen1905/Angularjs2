@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   templateUrl: 'app.component.html',
   styles:['h1{ color: olivedrab; font-weight: bold}']
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent  {
+
+  public title = "Hello Angular Js 2222"
+
+}
