@@ -20,3 +20,5 @@ Bài 8
     cú pháp khai báo [( ngModel )]= "binding"
     thư viện cần có FormsModule
     Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'
+
+bài 11 : Stuctural directives ( *ngIf *ngFor * ngSwitch)
