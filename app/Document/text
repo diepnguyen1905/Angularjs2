@@ -1,10 +1,13 @@
-    Tutorial 7: one way binding
+Bài 7: one way binding
 là sự tương tác giữa model và views
 
 có hai cách truyền bến ( binding ) sang views {{ tên biến }} hoặc [ tên biến ]
 
-Tutorial 8
+Bài 8
 
  Cách sử dụng binding Class và Style.
- Demo 'tutorial.component.ts'
+ Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'
  nếu biến bằng true thì áp dụng class hoặc style = flase thì bỏ qua.
+
+ Bài 9 event binding
+ Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'

@@ -3,15 +3,16 @@ import {Component} from '@angular/core';
 @Component({
     selector:'my-tutorial',
     template:`
-    <h2>This TEDU Angular2 Tutorial component</h2>
-    <h3 [class.redColor]="applyClass">Apply class</h3>
-    <h4 [style.color]="blueColor?'blue':'orange'">Apply style</h4>
-    `,
-    styles:[`.redColor{
-        color:red;
-    }`]
+    <h2>{{ title }}</h2>
+    <button (click)="clickme($event)"> list event Mouse </button>
+    <!-- lấy giá trị của thẻ input-->
+    <button (click)="clickme(name.value)"> Click Me </button>
+    <input type="text" #name/>
+    `
 })
 export class TutorialComponent{
-    public applyClass = true;
-    public blueColor = false;
+    public title = " Hello Angular Js 2 ";
+    clickme(value){
+        console.log( value);
+    }
 }
