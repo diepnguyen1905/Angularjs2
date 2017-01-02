@@ -8,7 +8,6 @@ import {Component} from '@angular/core';
     // sử dựng sytles cho từng component
     styles:['h1{color: red }' , 'h2{ color: blue}']
 })
-
 export class TutorialComponent {
 
 }
