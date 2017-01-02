@@ -11,3 +11,12 @@ Bài 8
 
  Bài 9 event binding
  Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'
+
+
+ Bài 10 two way biding
+ là sự thay đổi qua lại giữa views và model, là sự kết hợp giữa
+    property binding ( trao đổi giữa component và views ) và
+    event binding (trao đổi giữa views và component).
+    cú pháp khai báo [( ngModel )]= "binding"
+    thư viện cần có FormsModule
+    Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'

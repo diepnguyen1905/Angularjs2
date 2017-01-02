@@ -4,15 +4,13 @@ import {Component} from '@angular/core';
     selector:'my-tutorial',
     template:`
     <h2>{{ title }}</h2>
-    <button (click)="clickme($event)"> list event Mouse </button>
-    <!-- lấy giá trị của thẻ input-->
-    <button (click)="clickme(name.value)"> Click Me </button>
-    <input type="text" #name/>
+    <input type="text" [(ngModel)]="fName" />
+    <input type="text" [(ngModel)]="lName"/>
+    <br>
+    <p> FullName : {{ fName }} {{ lName }}</p>
     `
 })
 export class TutorialComponent{
     public title = " Hello Angular Js 2 ";
-    clickme(value){
-        console.log( value);
-    }
+
 }
