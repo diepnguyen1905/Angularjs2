@@ -21,4 +21,6 @@ Bài 8
     thư viện cần có FormsModule
     Demo 'tutorial.component.ts' Demo 'tutorial.component.ts'
 
-bài 11 : Stuctural directives ( *ngIf *ngFor * ngSwitch)
+bài 11 : Stuctural directives ( *ngIf *ngFor * ngSwitch )
+
+Bài 12: Sử dụng ngClass và ngStyle ( attribute Directives )
